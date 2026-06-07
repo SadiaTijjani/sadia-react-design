@@ -42,6 +42,23 @@ function Email(){
                 border: "1px solid lightgray"
             }}
             />
+            
+            <div
+            style={{
+                display: "flex",
+                justifyContent: "space-between",
+                marginTop: "20px"
+            }}
+            >
+            <div>
+            <input
+            type="checkbox"
+            style={{ marginRight: "8px" }}
+            />
+            Remember me
+            </div>
+            <p>Forgot Password?</p>
+            </div>
         </div>
         </div>
     );

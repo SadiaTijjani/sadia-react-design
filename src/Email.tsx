@@ -59,6 +59,27 @@ function Email(){
             </div>
             <p>Forgot Password?</p>
             </div>
+
+            <div
+            style={{
+                display: "flex",
+                justifyContent: "center"
+            }}
+            >
+            <button
+                style={{
+                    width: "400px",
+                    padding: "10px",
+                    marginTop: "20px",
+                    borderRadius: "12px",
+                    backgroundColor: "#FF6600",
+                    color: "white"
+
+                }}
+                >
+                Sign In
+            </button>
+            </div>
         </div>
         </div>
     );
